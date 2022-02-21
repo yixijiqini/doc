@@ -12,11 +12,22 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      name: '笔记',
+      repo: '',
+      loadSidebar: true,
+      subMaxLevel: 3
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!--  图片缩放，忽略某张图片![](image.png":no-zoom") -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugubs/zoom-image.min.js"></script>
+  <!-- 复制到剪切板 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- 字数统计 -->
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <!-- 语法高亮 -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm.prismjs@1/components/prism-python.min.js"></script>
 </body>
 </html>
